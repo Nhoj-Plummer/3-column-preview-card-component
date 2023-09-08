@@ -1,8 +1,8 @@
 import React from "react"
-import "./CardSection.css"
+import "./cardsection.css"
 
-const CardSection = props => {
-  return <div className="card-section-container section-padding">{props.children}</div>
+const CardSection = () => {
+  return <div className="card-section_container">CardSection</div>
 }
 
 export default CardSection
