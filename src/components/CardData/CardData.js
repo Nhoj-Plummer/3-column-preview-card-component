@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react"
+import { CardSection } from "../../containers/indexcon"
 
-function CardData() {
-  return (
-    <div>CardData</div>
-  )
+const CardData = () => {
+  return <CardSection></CardSection>
 }
 
 export default CardData
