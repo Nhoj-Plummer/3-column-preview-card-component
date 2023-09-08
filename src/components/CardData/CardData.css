@@ -17,4 +17,11 @@
 .card-data_contianer button {
   width: 9.375rem;
   height: 3.125rem;
+  border-radius: 50px;
+  border-style: none;
+  color: var(--very-light-gray);
+}
+
+.card-data_contianer button:hover {
+  border: 1px solid var(--very-light-gray);
 }

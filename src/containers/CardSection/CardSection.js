@@ -17,6 +17,8 @@ const CardSection = () => {
   return (
     <div className="card-section_container section-padding">
       <CardData image={Sedans} header="SEDANS" text="Choose a sedan for its affordability and excellent fuel economoy. Ideal for crusiing in the city or on your next road trip." />
+      <CardData />
+      <CardData />
     </div>
   )
 }
