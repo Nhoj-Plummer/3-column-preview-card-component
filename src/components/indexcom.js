@@ -1,1 +1,1 @@
-export { default as CardData } from "./CardData/CardData"
+export { default as CardData } from "../components/CardData/CardData"
