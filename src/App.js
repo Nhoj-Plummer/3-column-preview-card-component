@@ -1,10 +1,10 @@
 import "./App.css"
-import { CardSection } from "./containers/indexcon"
+import { CardData } from "./components/indexcom"
 
 function App() {
   return (
     <>
-      <CardSection />
+      <CardData />
     </>
   )
 }
