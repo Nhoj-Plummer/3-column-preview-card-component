@@ -1,6 +1,6 @@
 .card-section_container {
   display: flex;
-  border: 1px solid;
+  max-width: 1440px;
 }
 
 /* Conditional Section */
@@ -10,5 +10,3 @@
     flex-direction: column;
   }
 }
-
-

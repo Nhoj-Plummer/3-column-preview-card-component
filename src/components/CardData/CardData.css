@@ -1,11 +1,8 @@
 /* Genereal Rules */
 .card-data_contianer {
-  height: 500px;
+  flex: 1;
   padding: 50px 80px 0 80px;
   border: 1px solid;
-}
-
-.card-data_contianer img {
 }
 
 .card-data_contianer h1 {
@@ -85,6 +82,10 @@
   /* Column One */
   .card-data_contianer:first-child {
     border-radius: 15px 15px 0 0;
+  }
+
+  .card-data_contianer:nth-child(3) {
+    border-radius: 0 0 15px 15px;
   }
 }
 
