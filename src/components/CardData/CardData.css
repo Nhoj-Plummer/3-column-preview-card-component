@@ -64,6 +64,21 @@
   background: var(--dark-cyan);
 }
 
+/* Third Column */
+.card-data_contianer:nth-child(3) {
+  background: var(--very-dark-cyan);
+}
+
+.card-data_contianer:nth-child(3) button {
+  color: var(--very-dark-cyan);
+}
+
+.card-data_contianer:nth-child(3) button:hover {
+  border: 1px solid var(--transparent-white);
+  color: var(--transparent-white);
+  background: var(--very-dark-cyan);
+}
+
 /* Conditional Section */
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
