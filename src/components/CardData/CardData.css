@@ -51,7 +51,17 @@
 
 /* Second Column */
 .card-data_contianer:nth-child(2) {
-  background: var(--bright-orange);
+  background: var(--dark-cyan);
+}
+
+.card-data_contianer:nth-child(2) button {
+  color: var(--dark-cyan);
+}
+
+.card-data_contianer:nth-child(2) button:hover {
+  border: 1px solid var(--transparent-white);
+  color: var(--transparent-white);
+  background: var(--dark-cyan);
 }
 
 /* Conditional Section */
