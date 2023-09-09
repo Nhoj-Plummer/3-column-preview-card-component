@@ -1,14 +1,18 @@
 /* Genereal Rules */
 .card-data_contianer {
   height: 600px;
+  padding: 60px;
   border: 1px solid;
 }
 
 .card-data_contianer h1 {
+  color: var(--very-light-gray);
   font-family: var(--font-family-two);
 }
 
 .card-data_contianer p {
+  font-size: 15px;
+  color: var(--transparent-white);
   font-family: var(--font-family-one);
 }
 
