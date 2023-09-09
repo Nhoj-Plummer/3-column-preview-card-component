@@ -1,9 +1,7 @@
+/* Genereal Rules */
 .card-data_contianer {
   height: 600px;
   border: 1px solid;
-}
-
-.card-data_contianer img {
 }
 
 .card-data_contianer h1 {
@@ -19,9 +17,22 @@
   height: 3.125rem;
   border-radius: 50px;
   border-style: none;
+  font-family: var(--font-family-one);
   color: var(--very-light-gray);
+  cursor: pointer;
 }
 
-.card-data_contianer button:hover {
-  border: 1px solid var(--very-light-gray);
+/* First Column */
+.card-data_contianer:first-child {
+  background: var(--bright-orange);
+}
+
+.card-data_contianer:first-child button {
+  color: var(--bright-orange);
+}
+
+.card-data_contianer:first-child button:hover {
+  border: 1px solid var(--transparent-white);
+  color: var(--transparent-white);
+  background: var(--bright-orange);
 }

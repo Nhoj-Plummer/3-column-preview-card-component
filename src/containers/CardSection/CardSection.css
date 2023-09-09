@@ -1,11 +1,14 @@
 .card-section_container {
+  display: flex;
   border: 1px solid;
 }
 
 /* Conditional Section */
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
+  .card-section_container {
+    flex-direction: column;
+  }
 }
 
-@media screen and (min-width: 540px) {
-}
+
