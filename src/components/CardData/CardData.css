@@ -49,6 +49,11 @@
   background: var(--bright-orange);
 }
 
+/* Second Column */
+.card-data_contianer:nth-child(2) {
+  background: var(--bright-orange);
+}
+
 /* Conditional Section */
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
