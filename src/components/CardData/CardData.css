@@ -1,16 +1,13 @@
 /* Genereal Rules */
 .card-data_contianer {
-  padding: 60px 0 60px 60px;
-  border: 1px solid;
+  padding: 60px;
 }
 
-.card-data_contianer img {
-  width: 100px;
-}
+
 
 .card-data_contianer h1 {
   margin-top: 2rem;
-  font-size: 50px;
+  font-size: 40px;
   color: var(--very-light-gray);
   font-family: var(--font-family-two);
 }
@@ -19,16 +16,14 @@
   margin-top: 2rem;
   line-height: 1.75rem;
   font-size: 15px;
-  /* width: 50%; */
   color: var(--transparent-white);
   font-family: var(--font-family-one);
-  border: 1px solid;
 }
 
 .card-data_contianer button {
   width: 10.375rem;
-  height: 4.125rem;
-  margin-top: 8rem;
+  height: 3.125rem;
+
   border-radius: 50px;
   font-size: 15px;
   font-weight: 700;
@@ -86,6 +81,10 @@
 /* Conditional Section */
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
+  /* .card-data_contianer {
+    padding: 70px;
+  } */
+
   /* Column One */
   .card-data_contianer:first-child {
     border-radius: 15px 15px 0 0;
@@ -95,10 +94,27 @@
   .card-data_contianer:nth-child(3) {
     border-radius: 0 0 15px 15px;
   }
+
+  /* Button */
+  .card-data_contianer button {
+    margin-top: 1rem;
+  }
 }
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+ .card-data_contianer {
+    flex: 0 0 33%;
+  } 
+
+  .card-data_contianer p {
+    padding-right: 140px;
+  } 
+
+  .card-data_contianer button {
+    margin-top: 150px;
+  }
+
   /* Column One */
   .card-data_contianer:first-child {
     border-radius: 15px 0 0 15px;

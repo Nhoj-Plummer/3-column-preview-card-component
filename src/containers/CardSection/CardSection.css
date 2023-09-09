@@ -1,5 +1,6 @@
 .card-section_container {
   display: flex;
+  justify-content: center;
   max-width: 1440px;
 }
 
@@ -8,5 +9,6 @@
 @media screen and (max-width: 540px) {
   .card-section_container {
     flex-direction: column;
+    max-width: 375px;
   }
 }
