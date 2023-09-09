@@ -1,12 +1,16 @@
 /* Genereal Rules */
 .card-data_contianer {
-  flex: 1;
-  padding: 50px 80px 0 80px;
+  /* padding: 130px 130px 50px 130px; */
   border: 1px solid;
+}
+
+.card-data_contianer img {
+  width: 100px;
 }
 
 .card-data_contianer h1 {
   margin-top: 2rem;
+  font-size: 50px;
   color: var(--very-light-gray);
   font-family: var(--font-family-two);
 }
@@ -15,16 +19,19 @@
   margin-top: 2rem;
   line-height: 1.75rem;
   font-size: 15px;
+
   color: var(--transparent-white);
   font-family: var(--font-family-one);
   border: 1px solid;
 }
 
 .card-data_contianer button {
-  width: 9.375rem;
-  height: 3.125rem;
+  width: 10.375rem;
+  height: 4.125rem;
   margin-top: 2rem;
   border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
   border-style: none;
   font-family: var(--font-family-one);
   color: var(--very-light-gray);
@@ -84,6 +91,7 @@
     border-radius: 15px 15px 0 0;
   }
 
+  /* Column Three */
   .card-data_contianer:nth-child(3) {
     border-radius: 0 0 15px 15px;
   }
@@ -91,4 +99,13 @@
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+  /* Column One */
+  .card-data_contianer:first-child {
+    border-radius: 15px 0 0 15px;
+  }
+
+  /* Column Three */
+  .card-data_contianer:nth-child(3) {
+    border-radius: 0 15px 15px 0;
+  }
 }
