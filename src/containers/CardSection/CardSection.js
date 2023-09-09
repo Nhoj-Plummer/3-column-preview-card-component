@@ -1,5 +1,5 @@
 import React from "react"
-import "./cardsection.css"
+import "./CardSection.css"
 import Sedans from "../../assets/icon-sedans.svg"
 import SUVS from "../../assets/icon-suvs.svg"
 import Luxury from "../../assets/icon-luxury.svg"
