@@ -1,24 +1,29 @@
 /* Genereal Rules */
 .card-data_contianer {
-  height: 600px;
-  padding: 60px;
+  height: 500px;
+  padding: 80px;
   border: 1px solid;
 }
 
 .card-data_contianer h1 {
+  margin-top: 2rem;
   color: var(--very-light-gray);
   font-family: var(--font-family-two);
 }
 
 .card-data_contianer p {
+  margin-top: 2rem;
+  line-height: 1.5rem;
   font-size: 15px;
   color: var(--transparent-white);
   font-family: var(--font-family-one);
+  border: 1px solid;
 }
 
 .card-data_contianer button {
   width: 9.375rem;
   height: 3.125rem;
+  margin-top: 2rem;
   border-radius: 50px;
   border-style: none;
   font-family: var(--font-family-one);
