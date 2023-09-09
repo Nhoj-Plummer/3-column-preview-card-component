@@ -1,8 +1,11 @@
 /* Genereal Rules */
 .card-data_contianer {
   height: 500px;
-  padding: 80px;
+  padding: 50px 80px 0 80px;
   border: 1px solid;
+}
+
+.card-data_contianer img {
 }
 
 .card-data_contianer h1 {
@@ -13,7 +16,7 @@
 
 .card-data_contianer p {
   margin-top: 2rem;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
   font-size: 15px;
   color: var(--transparent-white);
   font-family: var(--font-family-one);
@@ -44,4 +47,17 @@
   border: 1px solid var(--transparent-white);
   color: var(--transparent-white);
   background: var(--bright-orange);
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  /* Column One */
+  .card-data_contianer:first-child {
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
 }
